@@ -1,2 +1,2 @@
 # proyecto.js
-Proyecto final de jesus omar
+Proyecto de jesus omar 
