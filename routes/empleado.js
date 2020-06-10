@@ -6,7 +6,7 @@ empleado.post("/",async(req,res,next)=>{
 	const {emp_name , emp_lastname , emp_mail, emp_phone , emp_address} = req.body;
 
 	if(emp_name && emp_lastname && emp_mail && emp_phone && emp_address){
-	let query = "INSERT INTO empleado( emp_name , emp_lastname , emp_mail,emp_phone , emp_address)";
+	let query = "INSERT INTO empleado( emp_name , emp_lastname , emp_mail, emp_phone , emp_address)";
 	query += ` VALUES('${emp_name}', '${emp_lastname}', '${emp_mail}', ${emp_phone}, '${emp_address}')`;
 
 	const rows = await db.query(query);
