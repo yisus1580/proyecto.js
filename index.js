@@ -18,8 +18,8 @@ app.use(express.urlencoded({ extended: true }));
 
  app.get("/", index);
  app.use("/user", user);
- app.use(auth);
  app.use("/empleado", empleado);
+ app.use(auth);
  app.use(notFound);
 
  app.listen(process.env.PORT||3000,() =>{
