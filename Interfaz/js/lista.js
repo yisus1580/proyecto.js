@@ -1,6 +1,6 @@
 window.onload = init;
 var headers = {};
-var url = "herokuapp.com";
+var url = "http://localhost:3000";
 
 function init(){
 	if (localStorage.getItem("token")){
