@@ -3,9 +3,9 @@ const util = require('util');
 
 const pool = mysql.createPool({
 	connectionLimit: 10,
-	host: 'sq65ur5a5bj7flas.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-	user: 'vqvya48nqcharapb',
-	password: 'bwuhepojty38r120',
+	host: 'localhost',
+	user: 'root',
+	password: '',
 	database: 'empleado'
 });
 
