@@ -17,7 +17,7 @@ function login(){
 
 	axios({
 		method: 'post',
-		url: 'http://localhost:3000/user/login',
+		url: 'http://herokuapp.com/user/login',
 		data: {
 			user_mail: mail,
 			user_password: pass
