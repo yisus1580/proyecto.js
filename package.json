@@ -29,6 +29,5 @@
     "mysql": "^2.18.1",
     "nodemon": "^2.0.4",
     "save": "^2.4.0"
-  },
-  "devDependencies": {}
+  }
 }
