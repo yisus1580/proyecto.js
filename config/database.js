@@ -3,9 +3,9 @@ const util = require('util');
 
 const pool = mysql.createPool({
 	connectionLimit: 10,
-	host: 'localhost',
-	user: 'root',
-	password: '',
+	host: 'us-cdbr-east-05.cleardb.net',
+	user: 'b0cbf9b5fedea7',
+	password: 'fe714e8d',
 	database: 'empleado'
 });
 
